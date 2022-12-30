@@ -1,0 +1,252 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+        font-family: 'Baloo Bhaina 2', cursive;
+       box-sizing: border-box; 
+           
+}
+
+#navbar_logo_img
+{
+    height: 89px;
+        
+        border-radius: 57px;
+}
+#navbar
+{
+display: flex;
+background-image: linear-gradient(to right, rgb(32, 15, 141), purple, rgb(229, 153, 11));
+position: sticky;
+top: 0px;
+}
+#Options
+{
+    width: 100%;
+    display:flex;
+ justify-content: space-evenly;   
+}
+
+#option
+{
+    display: flex;
+        align-items: center;
+        background-color: #808080ab;
+        margin: 18px;
+            border-radius: 7px;
+            padding: 10px
+}
+#option:hover
+{
+border-radius: 15px;
+font-weight: bolder;
+}
+
+#option a:link {
+    color: white;
+
+    text-decoration: none;
+}
+
+#option a:visited {
+    color: white;
+
+    text-decoration: none;
+}
+#container
+{
+    min-height: 80vh;
+    background-color: #393e79;
+}
+#content_1
+{
+    /* padding: 28px; */
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 64px;
+}
+#content_1_1_div
+{
+    display: flex;
+        justify-content: center;
+}
+#content_1_1
+{
+    color: white;
+
+        text-align: center;
+        background-image: linear-gradient(to right, rgb(32, 15, 141), purple, rgb(229, 153, 11));
+        font-size: 23px;
+       
+        border-radius: 55px;
+        width: 254px;
+}
+#content_1_2
+{
+font-size: 25px;
+    background-image: linear-gradient(rgb(229, 153, 11),
+        purple,
+        rgb(32, 15, 141));
+    padding: 5%;
+    width: 90%;
+   
+    
+    border-radius: 71px;
+}
+#underline
+{
+text-decoration-color: aqua;
+   color: white;
+}
+#content_1_2_span_1
+{
+    font-weight: bolder;
+    color: aqua;
+    text-decoration: underline;
+        text-decoration-color:white;
+        
+    }
+
+        #feedback_heading_div
+        {
+            height: 50px;
+                width: 270px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 45px;
+        }
+#feedback_heading
+{
+    height: 64px;
+        width: 187px;
+        text-align: center;
+        background-color: #393e79;
+        color: white;
+        font-size: 34px;
+        border-radius: 18px;
+}
+/* -----------------Card Design ----------------- */
+.slide-container
+{
+    width: 100%;
+    max-width: 1120px;
+    background-color:grey ;
+}
+.slided-content
+{
+margin: 0px 25px auto 30px;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+#content_2
+{
+        background-image: linear-gradient(to bottom right,rgb(229, 153, 11),
+                    purple,
+                    rgb(32, 15, 141));
+    display:flex;
+justify-content: center;
+align-items: center;
+height: 71vh;
+flex-direction: column;
+}
+
+#card-image_img
+{
+    height: 175px;
+        border-radius: 135px;
+               border: 2px solid purple;
+}
+
+.card
+{
+    border-radius: 30px;
+background-image: linear-gradient(to bottom right, purple, aqua, red, #4ed54ef2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+max-width: 341px;
+    }
+.name
+{
+    text-align: center;
+}
+.card-content
+{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#card-image_img_4
+{height: 175px;
+    border-radius: 135px;
+    border: 2px solid purple;
+width: 182px;
+}
+#card-image_img_5
+{height: 175px;
+    border-radius: 135px;
+    border: 2px solid purple;
+width: 173px;
+}
+#card-image_img_6
+{height: 175px;
+    border-radius: 135px;
+    border: 2px solid purple;
+width: 157px;
+}
+.description
+{
+    width: 300px;
+        margin: 9px;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+}
+.button
+{
+background-color: #800080d1;
+    color: white;
+ 
+    border-radius: 7px;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width:1095px) {
+    #navbar
+    {
+        flex-direction: column;
+    }
+    #navbar_logo
+    {
+        display: flex;
+        justify-content: center;
+    height: 82px;
+    }
+    .slide-container
+    {
+        width: 354px;
+    }
+    #content_1_1
+    {
+        font-size: 28px;
+    }
+    .slided-content
+    {
+        width: 307px;
+    }
+    #Options
+    {
+height: 138px;
+    }
+}
+
+
+/* ---------------------------------------- */
+footer {
+    background-image: linear-gradient(to right, rgb(32, 15, 141), purple, rgb(229, 153, 11));
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    
+}

@@ -1,0 +1,206 @@
+*
+
+{
+margin: 0;
+    padding: 0;
+
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+    overflow-x: hidden;
+}
+
+nav
+{
+display: flex;
+background-color: black;
+color: white;
+ height: 83px;
+
+}
+#nav_h1
+{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        margin: 10px auto;
+overflow-y: hidden;
+    }
+   #nav_img_div
+   {
+    overflow-y: hidden;
+    
+    border-radius: 33px;
+   }
+   #nav_img
+   {
+height: 81px;
+    width: auto;
+    border-radius: 56px;
+   }
+nav h1
+{
+    font-family: 'Rubik Dirt', cursive;
+        text-decoration: underline;
+        text-decoration-color: aqua;
+        text-decoration-style: dotted;
+        font-family: 'Rubik Wet Paint', cursive;
+}
+
+body
+{
+    background-color: #80808061;
+    
+}
+
+#container
+{
+    min-height: 80vh;
+ 
+}
+
+
+
+#song_list
+{
+   
+height: 100%;
+    margin: 41px 56px;
+        border-radius: 19px;
+        padding: 18px;
+    position: relative;
+    
+}
+#song_list h2
+{
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#song_list::before
+{
+    background: url(../Content/Study_Zone_PAGE/Study_zone_bg_image.jpeg) no-repeat scroll;
+    background-size: cover;
+    content: '';
+    position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+width: 100%;
+opacity: 0.5;
+z-index: -1;
+}
+#song
+{
+    display: flex;
+    background:#0000007d;
+        color: white;
+        border-radius: 42px;
+        justify-content: space-between;
+        margin: 18px;
+   
+}
+/* #song_div
+{
+    display: flex;
+        justify-content: center;
+        width: 100%;
+} */
+
+
+#song_logo
+{
+    height: 68px;
+    border-radius: 56px;
+}
+
+#song_add {
+    background-color: #000000c7;
+    color: white;
+    margin: 25px auto;
+    padding: 12px;
+    display: flex;
+        justify-content: center;
+        border-radius: 38px;
+}
+
+#song_add:hover {
+    background-color: #4ed54ef2;
+    color: black;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#song_span_1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 21px;
+}
+.song_display
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#song_play
+{
+    display: flex;
+        justify-content: center;
+        margin-left: 28px;
+
+
+}
+#song_play:hover
+{
+    cursor: pointer;
+}
+#music_player
+{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 26px;
+    margin: 12px;
+}
+
+#music_player_input
+{
+cursor: pointer;
+margin:10px;
+/* width: 1066px; */
+}
+
+#music_player_icons
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    overflow-y: hidden;
+}
+
+#music_player_music_name
+{
+position: absolute;
+left: 0;
+font-size: 26px;
+margin-left: 24px;
+font-family: 'Rubik Wet Paint', cursive;
+
+}
+
+#music_player_control
+{
+    width: 164px;
+    display: flex;
+    height: 140px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

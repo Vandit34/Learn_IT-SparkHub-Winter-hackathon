@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro time🍅</title>
+    <!--------------------Font Aweome------------------->
+    <script
+      src="https://kit.fontawesome.com/64d805c103.js"
+      crossorigin="anonymous"
+    ></script>
+    <!------------------CSS  & Responsivness Links--------------->
+    <link
+      rel="stylesheet"
+      href="./Timer_mobile.css"
+      media="screen and (max-width:437px)"
+    />
+    <link rel="stylesheet" href="./Timer.css" />
+
+    <!-- --------------Favicon--------------- -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../Content/MOOCS_PAGE/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../Content/MOOCS_PAGE/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../Content/MOOCS_PAGE/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../Content/MOOCS_PAGE/site.webmanifest" />
+    <!------------Google Font------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div id="nav_img_div">
+        <img
+          id="nav_img"
+          src="../Content/MOOCS_PAGE/apple-touch-icon.png"
+          alt=""
+        />
+      </div>
+      <div id="nav_h1">
+        <h1>It's Pomodoro Time 🍅</h1>
+      </div>
+    </nav>
+    <!---------------Container----------------------->
+    <section>
+      <div class="container">
+        <div class="painel">
+          <p id="work">work</p>
+          <p id="break">break</p>
+        </div>
+        <div class="timer">
+          <div class="circle">
+            <div class="time">
+              <p id="minutes"></p>
+              <p>:</p>
+              <p id="seconds"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="start" onclick="start()">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <a id="reset" href="/">
+            <i class="fa-solid fa-arrow-rotate-left"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------- -->
+    <footer>Copyright &copy; &nbsp; &nbsp; www.LEARNIT.com</footer>
+    <script src="./Timer.JS"></script>
+  </body>
+</html>
